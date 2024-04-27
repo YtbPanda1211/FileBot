@@ -1,0 +1,18 @@
+{
+    "name": "Phạm Minh Đồng",
+    "ID": "100068096370437",
+    "shield": 3,
+    "coins": 363767467,
+    "Island": {
+        "level": 1,
+        "coinsLV": 200,
+        "data": {
+            "tower": 0,
+            "tree": 0,
+            "pool": 0,
+            "pet": 0
+        }
+    },
+    "spin": 20,
+    "timeRegister": "13:19:54, 3/12/2023"
+}

@@ -1,0 +1,34 @@
+{
+  "pet": [
+    "Phượng hoàng lửa"
+  ],
+  "lv": [
+    "0"
+  ],
+  "exp": [
+    null,
+    "0"
+  ],
+  "food": [
+    "Thịt nướng",
+    "Thịt nướng",
+    "Thịt nướng",
+    "Thịt nướng",
+    "Thịt nướng",
+    "Thịt nướng",
+    "Thịt nướng",
+    "Thịt nướng",
+    "Thịt nướng",
+    "Thịt nướng"
+  ],
+  "user": [
+    1712324408350
+  ],
+  "died": [
+    1712410837190,
+    1712410808350
+  ],
+  "covid": [
+    1000000000000000000
+  ]
+}

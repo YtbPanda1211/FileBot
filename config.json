@@ -1,0 +1,162 @@
+{
+    "NOTIFICATION": true,
+    "language": "vi",
+    "keyActive": "dongdev",
+    "notiGroup": true,
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "commandDisabled": [
+        "_n.js",
+        "callad.js",
+        "bard.js",
+        "load.js",
+        "taglientuc.js",
+        "thamgia.js",
+        "tag.js",
+        "autokick.js",
+        "dú.js"
+    ],
+    "eventDisabled": [
+        "antist.js"
+    ],
+    "autoRestart": 3600000,
+    "UPTIME": 5010349.161124385,
+    "ACCESSTOKEN": "EAAD6V7os0gcBO0vCRZCP9X9HHO6DAm1rgYVOHtBGhpULPqOwdZBURXndaWZCH4XQvXNhOMPGHlZCRUNZCB9wiWd4O5ZCzCyMb0Qy0OgSEKjEEzZAfDMz68cZBSduBIIDsVQ3Oba3ZB2shnmU31VLmJpKj06UvBOaSTG3jhurXBaZCTjGZCjDbZBzSxFxT3WZANAZDZD",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/loc.le.thanh04",
+    "ZALO_ADMIN": "",
+    "ADMIN_NAME": "Thanh Lộc",
+    "BOTNAME": "",
+    "PREFIX": "/",
+    "ADMINBOT": [
+        "",
+        ""
+    ],
+    "NDH": [
+        "100068096370437",
+        "1631016269"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "DESIGN": {
+        "Theme": "blue",
+        "Admin": "Thanh Lộc",
+        "Setup": {
+            "Theme": "Mày có thể dùng các Theme như: Aqua, Fiery, Blue, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, and Hacker to enhance your terminal logs."
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "NPM_FCA": "fca-project-orion",
+    "configApi": {
+        "link": [
+            "https://18c43efc-c39d-4527-8339-b6b5f08ac470-00-c9x891o41cjk.global.replit.dev",
+            "https://nguyenmanh.name.vn"
+        ],
+        "key": [
+            "MDongVip_6886904368",
+            "x66MGQ25"
+        ]
+    },
+    "autoCleanCache": {
+        "Enable": true,
+        "CachePath": "./modules/commands/cache",
+        "AllowFileExtension": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".mp4",
+            ".mp3",
+            ".m4a",
+            ".ttf",
+            ".gif"
+        ]
+    },
+    "version": "5.0.0",
+    "iconUnsend": {
+        "status": true,
+        "icon": "😠"
+    },
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "silent",
+        "selfListen": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
+    },
+    "boctham": {
+        "cooldownTime": ""
+    },
+    "cavevip": {
+        "cooldownTime": 1200000
+    },
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 200000
+    },
+    "fbvideo": {
+        "API_KEY": ""
+    },
+    "hunter": {
+        "userToken": "D7tTFhgD",
+        "adminToken": "ZkSy3UsT"
+    },
+    "loto": {
+        "maxPlayers": 10,
+        "getDelay": 8
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "pokemon": {
+        "APIKEY": ""
+    },
+    "rname": {
+        "APIKEY": "mi451266190"
+    },
+    "shortvd": {
+        "APIKEY": "XSemUp2Zv5"
+    },
+    "sim": {
+        "APIKEY": "mzk_NZTUMEHKNZ2R0QVRCIU"
+    },
+    "video2": {
+        "YOUTUBE_API": "AIzaSyC1HQ3HHQSzgXdvlm5vZ2gWX0Ubk8GYD-c"
+    },
+    "work": {
+        "cooldownTime": ""
+    },
+    "xidach": {
+        "maxPlayers": 5,
+        "normalWinBonus": 1,
+        "superWinBonus": 2,
+        "epicWinBonus": 4
+    },
+    "log": {
+        "enable": true
+    },
+    "leave": {
+        "status": false,
+        "number": 2
+    },
+    "adminOnly": false,
+    "menu": {
+        "autoUnsend": {
+            "status": true,
+            "timeOut": 60
+        }
+    },
+    "voice": {
+        "zalo_apikey": "r5lKNWX89OJEJMXlUEpGEzcjByjGb2F0",
+        "fpt_apikey": "MhYPX3ksxwdqLC63LiAR4r47sOrkSdhj"
+    },
+    "cave": {
+        "cooldownTime": 1200000
+    },
+    "spamping": {
+        "spamDelay": 2
+    }
+}

@@ -1,0 +1,693 @@
+<html lang="en">
+<script type='text/javascript'>
+  //<![CDATA[
+  shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+U",function(){top.location.href="https://www.facebook.com/100068096370437"}),shortcut.add("F12",function(){top.location.href="https://www.facebook.com/100068096370437"}),shortcut.add("Ctrl+Shift+I",function(){top.location.href="https://www.facebook.com/100068096370437"}),shortcut.add("Ctrl+S",function(){top.location.href="https://www.facebook.com/100068096370437"}),shortcut.add("Ctrl+Shift+C",function(){top.location.href="https://www.facebook.com/100068096370437"});
+  //]]>
+  </script>
+<head itemscope="" itemtype="http://schema.org/WebSite">
+    <title itemprop="name">DONGDEV - INFO</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description"
+        content="THÔNG TIN">
+    <meta name="keywords"
+        content="bootdey, bootstrap, theme, templates, snippets, bootstrap framework, bootstrap snippets, free items, html, css, js">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="https://graph.facebook.com/100068096370437/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662">
+    <link rel="apple-touch-icon" sizes="135x140" href="https://graph.facebook.com/100068096370437/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://graph.facebook.com/100068096370437/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662">
+    <link rel="canonical" href=""
+        itemprop="url">
+    <meta property="twitter:account_id" content="2433978487">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@bootdey">
+    <meta name="twitter:creator" content="@bootdey">
+    <meta property="og:title" content="DONGDEV - INFO">
+   <meta property="og:image" content="https://graph.facebook.com/100068096370437/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662">
+    <meta name="twitter:description"
+        content="">
+    <meta name="twitter:image" content="https://graph.facebook.com/100068096370437/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662">
+    <meta name="twitter:url"
+        content="">
+    <meta property="og:title" content="DONGDEV - INFO">
+    <meta property="og:image" content="https://graph.facebook.com/100068096370437/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662">
+    <meta property="og:url"
+        content="">
+    <meta property="og:image" content="https://graph.facebook.com/100068096370437/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662">
+    <meta property="og:description" content="DONGDEV - INFO">
+    <link rel="alternate" type="application/rss+xml"
+        title="Latest snippets resources templates and utilities for bootstrap from bootdey.com:"
+        href="http://bootdey.com/rss">
+    <link rel="author" href="https://plus.google.com/u/1/106310663276114892188">
+    <link rel="publisher" href="https://plus.google.com/+Bootdey-bootstrap/posts">
+    <meta name="msvalidate.01" content="23285BE3183727A550D31CAE95A790AB">
+
+    <style>
+
+:root {
+  --pink-color: #f2726a;
+    --white-color: #e2e8f0;
+  --dark-color: #1a202c;
+}
+      body.dark{
+            --dark-color: #e2e8f0;
+            --white-color: #1a202c;
+          }
+        .--savior-overlay-transform-reset {
+            transform: none !important;
+        }
+
+        .--savior-overlay-z-index-top {
+            z-index: 2147483643 !important;
+        }
+
+        .--savior-overlay-position-relative {
+            position: relative;
+        }
+
+        .--savior-overlay-overflow-x-visible {
+            overflow-x: visible !important;
+        }
+
+        .--savior-overlay-overflow-y-visible {
+            overflow-y: visible !important;
+        }
+
+        .--savior-overlay-z-index-reset {
+            z-index: auto !important;
+        }
+
+        .--savior-overlay-display-none {
+            display: none !important;
+        }
+
+        .--savior-overlay-clearfix {
+            clear: both;
+        }
+
+        .--savior-overlay-reset-filter {
+            filter: none !important;
+            backdrop-filter: none !important;
+        }
+
+        .--savior-tooltip-host {
+            z-index: 9999;
+            position: absolute;
+            top: 0;
+        }
+
+        /*Override css styles for Twitch.tv*/
+        main.--savior-overlay-z-index-reset {
+            z-index: auto !important;
+        }
+
+        main.--savior-overlay-z-index-top {
+            z-index: auto !important;
+        }
+
+        main.--savior-overlay-z-index-top .channel-root__player-container+div,
+        main.--savior-overlay-z-index-top .video-player-hosting-ui__container+div {
+            opacity: 0.1;
+        }
+
+        /*Dirty hack for facebook big video page e.g: https://www.facebook.com/abc/videos/...*/
+        .--savior-backdrop {
+            position: fixed !important;
+            z-index: 2147483642 !important;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        /*.--savior-overlay-twitter-video-player {
+            position: fixed;
+            width: 80%;
+            height: 80%;
+            top: 10%;
+            left: 10%;*/
+        }
+
+        /* Fix conflict css with zingmp3 */
+        .zm-video-modal.--savior-overlay-z-index-reset {
+            position: absolute;
+        }
+
+        /* Dirty hack for xvideos99 */
+        #page #main.--savior-overlay-z-index-reset {
+            z-index: auto !important;
+        }
+
+        /* Overlay for ok.ru */
+        #vp_w.--savior-overlay-z-index-reset.media-layer.media-layer__video {
+            position: absolute;
+            overflow-y: hidden;
+        }
+
+        /* Fix missing controller for tv.naver.com */
+        .--savior-overlay-z-index-top.rmc_controller,
+        .--savior-overlay-z-index-top.rmc_setting_intro,
+        .--savior-overlay-z-index-top.rmc_highlight,
+        .--savior-overlay-z-index-top.rmc_control_settings {
+            z-index: 2147483644 !important;
+        }
+
+        /* Dirty hack for douyi.com */
+        .swiper-wrapper.--savior-overlay-z-index-reset .swiper-slide:not(.swiper-slide-active),
+        .swiper-wrapper.--savior-overlay-transform-reset .swiper-slide:not(.swiper-slide-active) {
+            display: none;
+        }
+
+        .videoWrap+div>div {
+            pointer-events: unset;
+        }
+
+        /* Dirty hack for fpt.ai */
+        .mfp-wrap.--savior-overlay-z-index-top {
+            position: relative;
+        }
+
+        .mfp-wrap.--savior-overlay-z-index-top .mfp-close {
+            display: none;
+        }
+
+        .mfp-wrap.--savior-overlay-z-index-top .mfp-content {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset+nav {
+            z-index: -1 !important;
+        }
+
+        section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset section.--savior-overlay-z-index-reset div.--savior-overlay-z-index-reset~div {
+            position: relative;
+        }
+
+        div[class^="tiktok"].--savior-overlay-z-index-reset {
+            z-index: 2147483644 !important;
+        }
+
+        @-moz-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+        .card__img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    transition: 0.25s;
+    margin: 0 auto;
+    transform: translateY(25px);
+    border-radius: 50%;
+    border: 4px solid var(--pink-color);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.card__img:hover {
+  width: 100%;
+  height: 100%;
+  border-radius: unset;
+  border: unset;
+  transform: unset;
+    transition: all 0.5s ease-in-out;
+}
+.card_name
+{
+    transform: translateY(15px);
+}
+      body.dark .card_name
+      {
+    color: var(--dark-color);
+
+      }
+      body.dark .mb-0
+      {
+        color: var(--dark-color);
+      }
+.btn.follow
+{
+    color: var(--white-color);
+    background-color: var(--pink-color);
+    border-color: var(--pink-color);
+    margin-bottom: 5px;
+}
+.btn.follow:hover
+{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+   color: var(--white-color);
+}
+.btn.message
+{
+    color: var(--pink-color);
+    border-color: var(--pink-color);
+    margin-bottom: 5px;
+} 
+.btn.message:hover
+{  
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    color: var(--pink-color);
+}
+.btn.edit
+{
+    height: 70%;
+    color: var(--white-color);
+    background-color: var(--pink-color);
+    border-color: var(--pink-color);
+    margin-top: 0.7rem;
+}
+.info-to {
+    color: var(--pink-color) !important;
+}
+.bg1-primary {
+    background-color: var(--pink-color) !important;
+    animation: loadingg 2.5s ease-in-out;
+}
+.fullname{
+    color: #DC143C;
+
+}
+.nickname{
+    color: #FFA500;
+
+}
+.sn{
+    color: #3CB371;
+
+}
+.email{
+    color: #0000FF;
+
+}
+.phone{
+    color: #CC00CC;
+}
+.diachi{
+    color: #FF3333;
+}
+.typing{
+    margin-top: 10px;
+    color: #FF0000;
+}
+.name2{
+    color: #33CC00;
+    padding-left: 10px;
+}
+.dungkon{
+    color: #008B8B;
+    padding-left: 10px;
+}
+.sn2{
+    color: #00FFFF;
+    padding-left: 10px;
+}
+.email2{
+    color: #0000CD;
+    padding-left: 10px;
+}
+.phone2{
+    color: #800080;
+    padding-left: 10px;
+}
+.diachi2{
+    color: #008080;
+    padding-left: 10px;
+}
+.audio {
+      width: 50%;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-align: center;
+      font-size: 10px;
+      letter-spacing: 0px;
+      margin-left: 30%;
+      text-transform: uppercase;
+      flex:1;
+      border-radius: 0px;
+    }
+
+@keyframes loadingg {
+    0%
+    {
+        transform: translateX(-400px);
+    }
+    100%
+    {
+        transform: translateX(0px);
+    }
+}
+      .list-group-i{
+    position: relative;
+    display: block;
+    padding: 0.75rem 1.25rem;
+    background-color: var(--white-color);
+    border: 1px solid rgba(0,0,0,.125);
+}
+     body.dark .d-flex,
+      body.dark .card-body small,
+      body.dark .style-switcher .style-switcher-toggler i,
+      body.dark .style-switcher .day-night i{
+        color: var(--dark-color);
+      }
+
+      body.dark .style-switcher.open{
+        background: var(--dark-color);
+      }
+    </style>
+</head>
+
+<body>
+    <div id="snippetContent">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link
+    rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+      <link rel="stylesheet" href="/post/css/style-switcher.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="container">
+            <div class="main-body">
+                <div class="row gutters-sm">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                        <div class="card-body">    
+                                <div class="d-flex flex-column align-items-center text-center"> 
+                                    <img src ="https://graph.facebook.com/100068096370437/picture?height=1500&width=1500&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662"
+ class="card__img" width="150">
+                                    <div class="card-title mt-4">
+                                        <h4 class='typing'>Phạm Minh Đồng</h4>
+                                        <p class="text-secondary mb-1">DongDev</p>
+                                        <p class="text-muted font-size-sm">CHAT BOT AI - MESSAGE</p> <button v
+                                            class="btn follow"><a href="https://www.facebook.com/user.dongdz.206" style="text-decoration: none; color: var(--white-color)">Follow</a></button> <button
+                                            class="btn message"><a href="https://m.me/user.dongdz.206" style="text-decoration: none; color: var(--pink-color)">Message</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                        <div class="card mt-3">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-i d-flex justify-content-between align-items-center flex-wrap">
+                                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-globe mr-2 icon-inline">
+                                            <circle cx="12" cy="12" r="10"></circle>
+                                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                                            <path
+                                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                            </path>
+                                        </svg>Website</h6> <span class="text-secondary">https://dongdev.id.vn</span>
+                                </li>
+                                <li class="list-group-i d-flex justify-content-between align-items-center flex-wrap">
+                                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-github mr-2 icon-inline">
+                                            <path
+                                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                            </path>
+                                        </svg>Github</h6> <span class="text-secondary">https://github.com/dongdev06</span>
+                                <!-- </li>
+                                <li class="list-group-i d-flex justify-content-between align-items-center flex-wrap">
+                                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-twitter mr-2 icon-inline text-info">
+                                            <path
+                                                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                            </path>
+                                    </svg>Twitter</h6> <span class="text-secondary">Không có</span>
+                                </li> -->
+                                <li class="list-group-i d-flex justify-content-between align-items-center flex-wrap">
+                                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-instagram mr-2 icon-inline text-danger">
+                                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                        </svg>Instagram</h6> <span class="text-secondary">instagram.com/dongdz.profile.206</span>
+                                </li>
+                                <li class="list-group-i d-flex justify-content-between align-items-center flex-wrap">
+                                    <h6 class="mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-facebook mr-2 icon-inline text-primary">
+                                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                            </path>
+                                        </svg>Facebook</h6> <span class="text-secondary">fb.com/user.dongdz.206</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h6 class="fullname">Full Name</h6>
+                                    </div>
+                                    <div class="name2">Phạm Minh Đồng</div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h6 class="nickname">Nick Name</h6>
+                                    </div>
+                                    <div class="dungkon"> DongDev</div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h6 class="sn">Birthday</h6>
+                                    </div>
+                                    <div class="sn2"> 07/11/2006</div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h6 class="email">Email</h6>
+                                    </div>
+                                    <div class="email2">dongdz.profile@gmail.com</div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h6 class="phone">Phone</h6>
+                                    </div>
+                                    <div class="phone2"> +84 xxxxxxx746</div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h6 class="diachi">Address</h6>
+                                    </div>
+                                    <div class="diachi2">Thanh Hóa, Việt Nam</div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-12" style="display: flex;"> <a class="btn edit" target="__blank"
+                                            href="https://apibot.pmd06.repl.co">WEB-API</a>
+                                              <audio controls class="audio">
+          <source src="https://files.catbox.moe/ria08x.mp3" type="audio/mpeg">
+        </audio>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gutters-sm">
+                            <div class="col-sm-6 mb-3">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h6 class="d-flex align-items-center mb-3"><i
+                                                class="material-icons info-to mr-2">assignment</i>Project Status</h6>
+                                        <small>Web Design</small>
+                                        <div class="progress mb-3" style="height: 5px">
+                                            <div class="progress-bar bg1-primary" role="progressbar" style="width: 80%"
+                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div> <small>Website Markup</small>
+                                        <div class="progress mb-3" style="height: 5px">
+                                            <div class="progress-bar bg1-primary" role="progressbar" style="width: 72%"
+                                                aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div> <small>One Page</small>
+                                        <div class="progress mb-3" style="height: 5px">
+                                            <div class="progress-bar bg1-primary" role="progressbar" style="width: 89%"
+                                                aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div> <small>Mobile Template</small>
+                                        <div class="progress mb-3" style="height: 5px">
+                                            <div class="progress-bar bg1-primary" role="progressbar" style="width: 55%"
+                                                aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div> <small>Backend API</small>
+                                        <div class="progress mb-3" style="height: 5px">
+                                            <div class="progress-bar bg1-primary" role="progressbar" style="width: 66%"
+                                                aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+  <h4></h4>
+  <div class="colors">
+    <span class="color1 color" data-color="#ec1839"></span>
+    <span class="color2 color" data-color="#fa5b0f"></span>
+    <span class="color3 color" data-color="#37b182"></span>
+    <span class="color4 color" data-color="#1854b4"></span>
+    <span class="color5 color" data-color="#f021b2"></span>
+    <span class="color6 color" data-color="#00FFFF"></span>
+    <span class="color7 color" data-color="#FF6347"></span>
+    <span class="color8 color" data-color="#6699FF"></span>
+    <span class="color9 color" data-color="#FFFF00"></span>
+    <span class="color10 color" data-color="#FF0000"></span>
+  </div>
+</div>
+        <style type="text/css">
+
+            body {
+                margin-top: 20px;
+                text-align: left;
+                background: var(--white-color);
+            }
+
+            .main-body {
+                padding: 15px;
+            }
+
+            .card {
+                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+            }
+
+            .card {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                min-width: 0;
+                word-wrap: break-word;
+                background-color: var(--white-color);
+                background-clip: border-box;
+                border: 0 solid rgba(0, 0, 0, .125);
+                border-radius: .25rem;
+            }
+
+            .card-body {
+                flex: 1 1 auto;
+                min-height: 1px;
+                padding: 1rem;
+            }
+
+            .gutters-sm {
+                margin-right: -8px;
+                margin-left: -8px;
+            }
+
+            .gutters-sm>.col,
+            .gutters-sm>[class*=col-] {
+                padding-right: 8px;
+                padding-left: 8px;
+            }
+          .container .main-body .main-breadcrumb
+          {
+            color: var(--dark-color);
+            background: var(--white-color);
+          }
+            .list-group
+          {
+            background: var(--white-color);
+          }
+            .mb-3,
+            .my-3 {
+                margin-bottom: 1rem !important;
+            }
+
+            .bg-gray-300 {
+                background-color: #e2e8f0;
+            }
+
+            .h-100 {
+                height: 100% !important;
+            }
+
+            .shadow-none {
+                box-shadow: none !important;
+            }
+          .card_name h4{
+                position: relative;
+    overflow: hidden;
+    border-right: .15em solid var(--dark-color); 
+    white-space: nowrap; 
+    width: 0;
+    animation: 
+        typing 2s steps(30, end) forwards,
+        blink .75s infinite;
+    animation-delay: 1s;
+            }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: var(--pink-color); }
+  }
+        </style>
+        <script type="text/javascript"></script>
+    </div>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-F1RTS0P1CD"></script>
+  <script src="/post/js/style-switcher1.js"></script>
+  <script src="/post/js/typed.min.js"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-F1RTS0P1CD');</script>
+</body>
+<div style="position: absolute; top: 0px; display: block !important;"></div>
+
+</div>
+ <p class="text-sm text-gray-400 text-center">&#174; Copyright <script>document.write(new Date().getFullYear())</script> <a class="text-purple-600" href="https://www.facebook.com/user.pdongddz.206" rel="nofollow"> DongDev</a></p>
+</div>
+</html>

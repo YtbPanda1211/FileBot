@@ -1,0 +1,18 @@
+{
+    "name": "Phúc Hoàng",
+    "ID": "61550219275428",
+    "shield": 3,
+    "coins": 100000000199,
+    "Island": {
+        "level": 1,
+        "coinsLV": 200,
+        "data": {
+            "tower": 0,
+            "tree": 0,
+            "pool": 0,
+            "pet": 10
+        }
+    },
+    "spin": 27,
+    "timeRegister": "18:15:51, 18/1/2024"
+}

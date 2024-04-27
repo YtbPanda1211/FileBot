@@ -1,0 +1,254 @@
+{
+    "leave": [
+        {
+            "threadID": "6328370547184627",
+            "status": false
+        },
+        {
+            "threadID": "7384872498189692",
+            "status": true
+        },
+        {
+            "threadID": "6080529302056264",
+            "status": false
+        },
+        {
+            "threadID": "6211448838955462",
+            "status": false
+        },
+        {
+            "threadID": "6984345548309579",
+            "status": false
+        },
+        {
+            "threadID": "3197047277048796",
+            "status": false
+        },
+        {
+            "threadID": "6848022901978235",
+            "status": false
+        },
+        {
+            "threadID": "7039047156181037",
+            "status": false
+        },
+        {
+            "threadID": "7050523298374455",
+            "status": false
+        },
+        {
+            "threadID": "7105773246182036",
+            "status": false
+        },
+        {
+            "threadID": "7257749774268979",
+            "status": false
+        },
+        {
+            "threadID": "24907422998901745",
+            "status": false
+        },
+        {
+            "threadID": "6804616456270022",
+            "status": false
+        },
+        {
+            "threadID": "7084616578221299",
+            "status": false
+        },
+        {
+            "threadID": "7044692368978234",
+            "status": false
+        },
+        {
+            "threadID": "7641296619216514",
+            "status": false
+        },
+        {
+            "threadID": "7011899562221671",
+            "status": false
+        },
+        {
+            "threadID": "5701529409971788",
+            "status": false
+        },
+        {
+            "threadID": "7640287275986358",
+            "status": false
+        },
+        {
+            "threadID": "24594622840186440",
+            "status": false
+        },
+        {
+            "threadID": "7882183538461576",
+            "status": false
+        },
+        {
+            "threadID": "7603183813026265",
+            "status": false
+        },
+        {
+            "threadID": "24765466406432923",
+            "status": false
+        },
+        {
+            "threadID": "6865372606882923",
+            "status": false
+        },
+        {
+            "threadID": "7294269227278920",
+            "status": true
+        },
+        {
+            "threadID": "6319322831529144",
+            "status": false
+        },
+        {
+            "threadID": "7308688349221128",
+            "status": false
+        },
+        {
+            "threadID": "7672546129425227",
+            "status": false
+        }
+    ],
+    "join": [
+        {
+            "threadID": "7384872498189692",
+            "status": true
+        },
+        {
+            "threadID": "6328370547184627",
+            "status": false
+        },
+        {
+            "threadID": "6804616456270022",
+            "status": false
+        },
+        {
+            "threadID": "6080529302056264",
+            "status": false
+        },
+        {
+            "threadID": "6211448838955462",
+            "status": false
+        },
+        {
+            "threadID": "6984345548309579",
+            "status": false
+        },
+        {
+            "threadID": "6848022901978235",
+            "status": false
+        },
+        {
+            "threadID": "7039047156181037",
+            "status": false
+        },
+        {
+            "threadID": "7050523298374455",
+            "status": false
+        },
+        {
+            "threadID": "7257749774268979",
+            "status": false
+        },
+        {
+            "threadID": "24907422998901745",
+            "status": false
+        },
+        {
+            "threadID": "7084616578221299",
+            "status": true
+        },
+        {
+            "threadID": "7040463412717390",
+            "status": false
+        },
+        {
+            "threadID": "5701529409971788",
+            "status": false
+        },
+        {
+            "threadID": "7640287275986358",
+            "status": false
+        },
+        {
+            "threadID": "24562636803383417",
+            "status": false
+        },
+        {
+            "threadID": "24594622840186440",
+            "status": false
+        },
+        {
+            "threadID": "7283068558403758",
+            "status": false
+        },
+        {
+            "threadID": "7321152194590935",
+            "status": false
+        },
+        {
+            "threadID": "7105773246182036",
+            "status": false
+        },
+        {
+            "threadID": "7882183538461576",
+            "status": false
+        },
+        {
+            "threadID": "7603183813026265",
+            "status": false
+        },
+        {
+            "threadID": "6368402966620903",
+            "status": false
+        },
+        {
+            "threadID": "24765466406432923",
+            "status": false
+        },
+        {
+            "threadID": "6865372606882923",
+            "status": true
+        },
+        {
+            "threadID": "7294269227278920",
+            "status": true
+        },
+        {
+            "threadID": "6946007315448697",
+            "status": false
+        },
+        {
+            "threadID": "7672546129425227",
+            "status": false
+        },
+        {
+            "threadID": "6319322831529144",
+            "status": false
+        },
+        {
+            "threadID": "7308688349221128",
+            "status": false
+        },
+        {
+            "threadID": "6762025813899735",
+            "status": false
+        },
+        {
+            "threadID": "24654122604233169",
+            "status": false
+        },
+        {
+            "threadID": "7269231063139981",
+            "status": false
+        },
+        {
+            "threadID": "24859307633652685",
+            "status": false
+        }
+    ]
+}

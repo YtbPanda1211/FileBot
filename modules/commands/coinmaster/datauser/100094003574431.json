@@ -1,0 +1,18 @@
+{
+    "name": "Pahm Dienz",
+    "ID": "100094003574431",
+    "shield": 1,
+    "coins": 2387.5,
+    "Island": {
+        "level": 1,
+        "coinsLV": 200,
+        "data": {
+            "tower": 0,
+            "tree": 0,
+            "pool": 0,
+            "pet": 10
+        }
+    },
+    "spin": 10,
+    "timeRegister": "22:17:37, 2/12/2023"
+}
